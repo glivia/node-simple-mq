@@ -1,0 +1,29 @@
+{
+  "name": "simple-mq",
+  "version": "1.0.0",
+  "description": "node-simple-mq 是一个简单易用的消息队列(MQ,message queue)库，使用 Node 写成，以 Reids 作为后端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glivia/node-simple-mq.git"
+  },
+  "keywords": [
+    "message",
+    "queue",
+    "mq"
+  ],
+  "author": "glivia.gu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glivia/node-simple-mq/issues"
+  },
+  "homepage": "https://github.com/glivia/node-simple-mq#readme",
+  "dependencies": {
+    "ioredis": "^3.1.4",
+    "thread-sleep": "^2.0.0"
+  }
+}
